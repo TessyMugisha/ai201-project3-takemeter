@@ -2,6 +2,8 @@
 
 A fine-tuned text classifier that sorts TV/film discussion comments by **discourse type** — is a comment an argued judgment, a bare opinion, or an emotional reaction? Built on `distilbert-base-uncased`, fine-tuned on 203 hand-labeled comments from the Paradise (Hulu) Reddit community, and compared against a zero-shot Llama 3.3 70B baseline.
 
+**Demo walkthrough:** _[https://www.loom.com/share/bd66a89a9d29481b85373d4a52a7ea08]_
+
 ## What this project is
 
 Online TV/film communities produce a wide range of comment quality on the same event: deep breakdowns of why the writing worked, one-line verdicts, and pure emotional outbursts all sit side by side in the same thread. TakeMeter classifies a comment into one of three discourse types so a community tool could, for example, surface high-effort critique or filter for live reactions.
